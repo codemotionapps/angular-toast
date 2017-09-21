@@ -1,5 +1,5 @@
 {
-  "name": "ng-toast",
+  "name": "@codemotion/angular-toast",
   "version": "2.0.0",
   "description": "Angular provider for toast notifications",
   "main": "dist/ngToast.js",
@@ -30,9 +30,9 @@
   "bugs": {
     "url": "https://github.com/tameraydin/ngToast/issues"
   },
-  "dependencies": {
-    "angular": ">=1.2.15 <1.6",
-    "angular-sanitize": ">=1.2.15 <1.6"
+  "peerDependencies": {
+    "angular": ">=1.2.15",
+    "angular-sanitize": ">=1.2.15"
   },
   "devDependencies": {
     "caniuse-db": "latest",
